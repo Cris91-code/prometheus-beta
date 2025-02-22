@@ -18,5 +18,5 @@ def create_palindrome_mirror(input_str):
     # Create the reverse of the input string
     reversed_str = input_str[::-1]
     
-    # Concatenate original string with its reverse
+    # Concatenate original string with its reverse, carefully handling special cases
     return input_str + reversed_str

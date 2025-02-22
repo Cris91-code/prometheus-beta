@@ -17,7 +17,7 @@ def test_spaces_palindrome_mirror():
     assert create_palindrome_mirror("hello world") == "hello worlddlrow olleh"
 
 def test_mixed_characters_palindrome_mirror():
-    assert create_palindrome_mirror("a1b!c ") == "a1b!c ! c1b a"
+    assert create_palindrome_mirror("a1b!c ") == "a1b!c  c!b1a"
 
 def test_invalid_input_type():
     with pytest.raises(TypeError, match="Input must be a string"):
